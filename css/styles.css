@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+.gamepass_logo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5.5%;
+    width: 13.5%;
+    text-align: center;
+}
+
+h1.intro{
+    font-size: 40px;
+}
+
+.intro{
+    text-align: center;;
+}
+
+a.canjear{
+    color: green;
+    font-weight: bold;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #555454;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    color: transparent;
+    z-index: 1000; /* Asegura que la barra esté por encima de otros elementos */
+    padding: 20px 0; /* Ajusta el padding vertical y horizontal */
+    
+}
+
+/* Aplica el espacio desde la izquierda solo al primer elemento */
+.navbar li:first-child {
+    margin-left: 150px;
+  }
+
+  /* Cambia el color del texto del último elemento */
+.navbar li:last-child a {
+    color: #29ce29; /* Color de texto verde */
+  border: 1px solid #29ce29; /* Borde de 1px de grosor y color verde */
+  padding: 5px; /* Espacio interno alrededor del texto */
+  font-weight: bold; /*Letras negritas*/
+  }
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+  
+.navbar li {
+    margin-right: 50px; /* Ajusta el margen derecho */
+  }
+  
+  /* Estilo para el enlace del logo */
+.navbar li p {
+    margin: 0;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Estilo para los enlaces */
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; /* Letras en negritas */
+  }
+
+
+
+.gamepass-plans {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .plan {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 30%; /* Ajusta el ancho de los planes según tus preferencias */
+  }
+  
+  .plan:nth-child(1) {
+    color: white;
+    background-color: #505050; /* Cuadro gris para el primer plan */
+  }
+  
+  .plan:nth-child(2),
+  .plan:nth-child(3) {
+    color: white;
+    background-color: #107c10 ; /* Cuadros verdes para los otros dos planes */
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #9bf00b;
+    color: #054b16;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .unete {
+    display: inline-block;
+    background-color: #9bf00b;
+    color: #054b16;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, text-decoration 0.3s ease, transform 0.3s ease;
+  }
+  
+  .unete:hover {
+    background-color: #9bf00b;
+    text-decoration: underline;
+    transform: translateX(-5px); /* Mueve el texto 5px hacia la izquierda */
+  }
+
+  .plan p.ultimate,
+.plan p.pc,
+.plan p.consola {
+  font-weight: bold;
+  font-size: 1.2em; /* Cambia el tamaño del texto según tus preferencias */
+}
+
+
