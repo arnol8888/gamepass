@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:sans-serif;
   }
 
 .gamepass_logo{
@@ -78,14 +78,15 @@ a.canjear{
 
 .gamepass-plans {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
   }
   
   .plan {
+    width: 510px; /* Ancho deseado */
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
-    width: 30%; /* Ajusta el ancho de los planes según tus preferencias */
   }
   
   .plan:nth-child(1) {
@@ -139,4 +140,20 @@ a.canjear{
   font-size: 1.2em; /* Cambia el tamaño del texto según tus preferencias */
 }
 
+ol{
+  font-size: 20px;
+  text-align: justify;
+  max-width: 100%; /* Ajusta el valor según tu preferencia */
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px; /* Espacio entre cada elemento ol */
+  
+}
 
+.plan .terminos {
+  margin-bottom: 60px; /* Espacio deseado entre el párrafo y las listas */
+}
+.terminos a{
+  color: white;
+  font-weight: bold;
+}
